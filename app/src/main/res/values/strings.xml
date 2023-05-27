@@ -1,3 +1,325 @@
 <resources>
     <string name="app_name">UasAPB</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="first_name">First Name</string>
+    <string name="last_name">Last Name</string>
+    <string name="name_team">Name Team</string>
+    <string name="fullName">Full Name</string>
+    <string name="title_driver">Driver F1 2023</string>
+    <string name="dummy">0</string>
+    <string name="lorem">Lorem ipsum dolor sit amet, consectetur adipiscing elit, deserunt mollit anim id est laborum.</string>
+    <string name="world_championships">World Championships</string>
+    <string name="podiums">Podiums</string>
+    <string name="team">Team</string>
+    <string name="country">Country</string>
+
+    <string-array name="data_first_name">
+        <item>Max</item>
+        <item>Sergio</item>
+        <item>Fernando</item>
+        <item>Lewis</item>
+        <item>Carlos</item>
+        <item>Lance</item>
+        <item>George</item>
+        <item>Lando</item>
+        <item>Nico</item>
+        <item>Charles</item>
+        <item>Valtteri</item>
+        <item>Esteban</item>
+        <item>Oscar</item>
+        <item>Pierre</item>
+        <item>Zhou</item>
+        <item>Yuki</item>
+        <item>Kevin</item>
+        <item>Alexander</item>
+        <item>Logan</item>
+        <item>Nyck De</item>
+    </string-array>
+
+    <string-array name="data_last_name">
+        <item>Verstappen</item>
+        <item>Perez</item>
+        <item>Alonso</item>
+        <item>Hamilton</item>
+        <item>Sainz</item>
+        <item>Stroll</item>
+        <item>Russell</item>
+        <item>Norris</item>
+        <item>Hulkenberg</item>
+        <item>Lecrec</item>
+        <item>Bottas</item>
+        <item>Ocon</item>
+        <item>Piastri</item>
+        <item>Gasly</item>
+        <item>Guanyu</item>
+        <item>Tsunoda</item>
+        <item>Magnussen</item>
+        <item>Albon</item>
+        <item>Sergeant</item>
+        <item>Vries</item>
+    </string-array>
+
+    <integer-array name="data_photo_driver">
+        <item>@drawable/max</item>
+        <item>@drawable/sergio</item>
+        <item>@drawable/alonso</item>
+        <item>@drawable/hamilton</item>
+        <item>@drawable/sainz</item>
+        <item>@drawable/lance</item>
+        <item>@drawable/russell</item>
+        <item>@drawable/norris</item>
+        <item>@drawable/nico</item>
+        <item>@drawable/lecrec</item>
+        <item>@drawable/bottas</item>
+        <item>@drawable/ocon</item>
+        <item>@drawable/piastri</item>
+        <item>@drawable/gasly</item>
+        <item>@drawable/zhou</item>
+        <item>@drawable/yuki</item>
+        <item>@drawable/kevin</item>
+        <item>@drawable/albon</item>
+        <item>@drawable/logan</item>
+        <item>@drawable/nyck</item>
+    </integer-array>
+
+    <integer-array name="data_photo_driver_detail">
+        <item>@drawable/max_detail</item>
+        <item>@drawable/checo_detail</item>
+        <item>@drawable/alonso_detail</item>
+        <item>@drawable/lewis_detail</item>
+        <item>@drawable/sainz_detail</item>
+        <item>@drawable/lance_detail</item>
+        <item>@drawable/russell_detail</item>
+        <item>@drawable/lando_detail</item>
+        <item>@drawable/nico_detail</item>
+        <item>@drawable/lecrec_detail</item>
+        <item>@drawable/bottas_detail</item>
+        <item>@drawable/ocon_detail</item>
+        <item>@drawable/oscar_detail</item>
+        <item>@drawable/gasly_detail</item>
+        <item>@drawable/zhou_detail</item>
+        <item>@drawable/yuki_detail</item>
+        <item>@drawable/kevin_detail</item>
+        <item>@drawable/albon_detail</item>
+        <item>@drawable/logan_detail</item>
+        <item>@drawable/nyck_detail</item>
+    </integer-array>
+
+    <string-array name="data_driver_team">
+        <item>Red Bull Racing</item>
+        <item>Red Bull Racing</item>
+        <item>Aston Martin</item>
+        <item>Mercedes</item>
+        <item>Ferrari</item>
+        <item>Aston Martin</item>
+        <item>Mercedes</item>
+        <item>Mclaren</item>
+        <item>Hass F1 Team</item>
+        <item>Ferrari</item>
+        <item>Alfa Romeo</item>
+        <item>Alpine</item>
+        <item>Mclaren</item>
+        <item>Alpine</item>
+        <item>Alfa Romeo</item>
+        <item>AlphaTauri</item>
+        <item>Haas F1 Team</item>
+        <item>Williams</item>
+        <item>Williams</item>
+        <item>AlphaTauri</item>
+    </string-array>
+
+    <integer-array name="data_driver_champ">
+        <item>2</item>
+        <item>0</item>
+        <item>2</item>
+        <item>7</item>
+        <item>0</item>
+        <item>0</item>
+        <item>0</item>
+        <item>0</item>
+        <item>0</item>
+        <item>0</item>
+        <item>0</item>
+        <item>0</item>
+        <item>0</item>
+        <item>0</item>
+        <item>0</item>
+        <item>0</item>
+        <item>0</item>
+        <item>0</item>
+        <item>2</item>
+        <item>0</item>
+        <item>0</item>
+    </integer-array>
+
+    <integer-array name="data_driver_podium">
+        <item>80</item>
+        <item>28</item>
+        <item>101</item>
+        <item>192</item>
+        <item>15</item>
+        <item>3</item>
+        <item>9</item>
+        <item>6</item>
+        <item>0</item>
+        <item>24</item>
+        <item>67</item>
+        <item>2</item>
+        <item>0</item>
+        <item>3</item>
+        <item>0</item>
+        <item>0</item>
+        <item>1</item>
+        <item>0</item>
+        <item>0</item>
+        <item>0</item>
+    </integer-array>
+
+    <string-array name="data_driver_country">
+        <item>Netherlands</item>
+        <item>Mexico</item>
+        <item>Spain</item>
+        <item>United Kingdom</item>
+        <item>Spain</item>
+        <item>Canada</item>
+        <item>United Kingdom</item>
+        <item>United Kingdom</item>
+        <item>Germany</item>
+        <item>Monaco</item>
+        <item>Finland</item>
+        <item>France</item>
+        <item>Australia</item>
+        <item>France</item>
+        <item>China</item>
+        <item>Japan</item>
+        <item>Denmark</item>
+        <item>Thailand</item>
+        <item>United States</item>
+        <item>Netherlands</item>
+    </string-array>
+
+    <integer-array name="data_driver_flag">
+        <item>@drawable/netherlands</item>
+        <item>@drawable/mexico</item>
+        <item>@drawable/spain</item>
+        <item>@drawable/uk</item>
+        <item>@drawable/spain</item>
+        <item>@drawable/canada</item>
+        <item>@drawable/uk</item>
+        <item>@drawable/uk</item>
+        <item>@drawable/germany</item>
+        <item>@drawable/monaco</item>
+        <item>@drawable/finland</item>
+        <item>@drawable/france</item>
+        <item>@drawable/australia</item>
+        <item>@drawable/france</item>
+        <item>@drawable/china</item>
+        <item>@drawable/japan</item>
+        <item>@drawable/denmark</item>
+        <item>@drawable/thailand</item>
+        <item>@drawable/us</item>
+        <item>@drawable/netherlands</item>
+    </integer-array>
+
+    <string-array name="data_driver_desc">
+        <item>He’s Max by name, and max by nature. Arriving as Formula 1’s youngest ever competitor at just 17 years old, Verstappen pushed his car, his rivals and the sport’s record books to the limit. The baby-faced Dutchman with the heart of a lion took the Toro Rosso – and then the Red Bull – by the horns with his instinctive racing style. F1’s youngest points scorer soon became its youngest race winner – at the age of 18 years and 228 days – with an opportunistic but controlled drive on debut for Red Bull in Barcelona 2016. A true wheel-to-wheel racer, another stunning drive in Brazil from the back of the pack to the podium on a treacherous wet track kept the plaudits coming. Verstappen’s no-holds-barred attitude and hard defending have sometimes landed him in hot water with his peers and paymasters. But the mistakes that initially marred his potential have given way to maturity, while the bravado and energy that make him a blockbuster talent have remained – and the victories have kept on coming.</item>
+        <item>He’s the fighter with a gentle touch from the land of the Lucha Libre. Perez’s reputation in F1 has been built on opposite approaches to Grand Prix racing. On the one hand, he is a punchy combatant who wrestles his way through the pack and into the points. Never afraid to add a bit of spice to his on-track encounters, even his team mates don’t always escape the Mexican’s heat. Then on the other hand, Perez is a smooth operator, a master at managing tyres to eke out extra performance and give him the upper hand on strategy. A firm favourite on the grid after his time with Sauber, McLaren, Force India and Racing Point, Perez has matured into an analytical racer and team player.</item>
+        <item>Michael Schumacher was the undisputed king of Formula 1 in the early 2000s, picking up wins and championships at a rate that was simply unheard of at the time. It was going to take someone very special to topple the Ferrari legend from his throne – and that it was Fernando Alonso who did it, tells you all you need to know about the Spaniard. Fiercely competitive, Alonso is not shy about his talent, rating himself as 9/10 “in everything”, and few in the know would disagree, with his performances in F1 characterised by blistering speed, brilliant tactical thinking, exemplary race craft, a razor-sharp eye for detail and a relentless determination to win.</item>
+        <item>‘Still I Rise’ – these are the words emblazoned across the back of Lewis Hamilton’s helmet and tattooed across his shoulders, and ever since annihilating expectations with one of the greatest rookie performances in F1 history in 2007, that’s literally all he’s done: risen to the top of the all-time pole positions list ahead of his hero Ayrton Senna, surged into first place in the wins column surpassing the inimitable Michael Schumacher, and then matched the legendary German’s seven world titles. Is he the G.O.A.T? Few would deny that he’s in the conversation – and what’s more he’s got there his way, twinning his relentless speed with a refusal to conform to stereotypes for how a racing driver should think, dress or behave.</item>
+        <item>He’s the matador from Madrid racing royalty.  After entering F1’s Bull Ring paired alongside Max Verstappen at Toro Rosso in 2015, Sainz quickly showed his fighting spirit. A tenacious racer, he puts the car on the edge as he hustles his way through the pack. No wonder Sainz has earned the nickname Chilli. But the Spaniard is intelligent as well as instinctive, thinking his way through a race and into the points. This calm temperament follows him off track where he remains unfazed by the pressures of forging a Grand Prix career with a famous name.  Sainz is the son of double World Rally champion, also his namesake, and has brought some of Dad’s driving skills to the F1 circuit – junior loves a delicious dose of drift for one.</item>
+        <item>There is no such thing as too much too soon for Stroll, a teenage sensation with a wet weather predilection. One of the cool kids on the grid, Stroll was unveiled shortly after his 18th birthday by Williams – before he finished high school and got his road licence.  Stroll meant business in his debut 2017 season, setting records on the way. An opportunistic racer he bounded onto the podium in Baku, the youngest rookie to do so. As the son of a wealthy entrepreneur, Stroll is used to a champagne lifestyle but now he knows the fizz tastes all the sweeter on the rostrum. Then in Monza he mastered the downpours to become the youngest driver in history to line up on the front row.</item>
+        <item>He’s the driver with the motto: “If in doubt, go flat out”. George Russell has lived by it throughout his F1 career to date, out-qualifying seasoned team mate Robert Kubica at all 21 Grands Prix in his rookie season, putting Williams back on the podium in 2021, and landing his first race win with Mercedes in 2022. That brilliant baseline speed served Russell well as he totted up titles on his way to Formula 1. The Briton stormed to the 2017 GP3 championship and delivered the 2018 Formula 2 crown under immense pressure. Spotting his potential, world champions Mercedes swooped to sign him to their junior programme in 2017, when Russell already had a DTM deal on the table. He banked more experience with practice sessions with Force India and tests for the Silver Arrows, before landing his Mercedes-powered Williams race drive.</item>
+        <item>Lando Norris may not be named after Star Wars rebel Lando Calrissian - his Mum just liked the moniker - but he has flair and fighting spirit in bountiful supply. McLaren had the British teenager on their books for two years before fast-tracking him into F1’s galaxy of stars in 2019. A firecracker in his junior career, with a penchant for pole positions and wheel-to-wheel tussles, Norris didn’t let them down. Paired with the highly-rated – and far more experienced – Carlos Sainz, his rookie season was impressive, Norris edging the Spaniard in their head-to-head qualifying battle, scoring points 11 times, and only narrowly missing out on a top-10 championship placing.</item>
+        <item>He’s the Superhero with the talent to become a racing superstar – if only he could get to flex his muscles with a top team. F1’s has shown incredible strength and stamina as a midfield marauder for Williams, Force India, Sauber, Renault, Racing Point and Aston Martin during a career spanning back to 2010 – and now he is back on the grid with Haas. In that rookie season, Hulkenberg mastered changing track conditions to take a brilliant pole position in Brazil, showing he had brains as well as brawn. Since then his ability to consistently hoover up the points has made him a highly valued team player. In 2015, his reputation grew once more when, on a weekend away from his day job, he won the classic Le Mans 24 Hours race for Porsche at the first time of asking.</item>
+        <item>Born in the Mediterranean idyll of Monaco, Leclerc arrived in F1 on a tidal wave of expectation.  Practically peerless on his way to the GP3 and Formula 2 crowns, he showcased a dazzling array of skills from scorching pole positions, commanding victories – even when his car caught fire twice at Silverstone – to an ability to muscle his way through the pack. Winning back-to-back championships also taught Leclerc how to handle pressure, another useful tool in the big pond of Formula 1 racing. Stepping up to F1 in 2018, Leclerc showed flashes of ballistic pace on Saturdays and racing brilliance on Sundays, dragging his Sauber beyond its limits – and earning himself a money-can’t-buy race seat at Ferrari for 2019, stepping into the shoes of the Scuderia’s last world champion, Kimi Raikkonen. </item>
+        <item>Learning his craft on Finnish roads of ice and snow, he was born to be a Grand Prix racer. Bottas explains that if you can drive on the frozen roads of his homeland then you can drive anywhere. Then there the Finnish mentality –reserved, diligent and calm the fast lane of F1 doesnt faze him. Making his F1 debut with Williams in 2013, Bottas soon became part of the family. Points and podiums followed with the reliable racer even amassing the most points without a win, a record he resented but that showcased his ability. The fact the Finn was such a points machine saw him suddenly promoted to the most coveted seat in F1 - Nico Rosberg vacant championship-winning seat at Mercedes.</item>
+        <item>Sacrifice, see – but it worked. 2014 saw Ocon break through in the world of single-seaters, as he beat a certain Max Verstappen to the European F3 title. Backed by Mercedes, he won the GP3 title the following year and was halfway through a season of DTM in 2016 when he was offered the chance to replace Rio Haryanto at the minnow Manor team from the Belgian Grand Prix onwards.</item>
+        <item>Born in Melbourne, just a stones throw away from the Australian Grand Prix venue, a young Oscar Piastris dreams of one day racing in Formula 1 were ignited by the sports star drivers roaring around his local streets, otherwise known as Albert Park. But it would take huge commitment and sacrifice to turn that dream into a reality, with a move to Europe – made by the likes of fellow countrymen Mark Webber and Daniel Ricciardo before him – the only way to go up against the best and catch the attention of the sports decision-makers.</item>
+        <item>If theres one man who knows how big a rollercoaster ride an F1 drivers career can be, its Pierre Gasly! The flying Frenchman was called up to make his 2017 debut in Malaysia in place of Daniil Kvyat and, after proving his mettle, he was named a Toro Rosso driver the following year.  A further 21 races into his fledgling career, Gasly was moved up again – this time to replace Red Bull big gun Daniel Ricciardo. Gasly seemed to have a knack of being in the right place at the right time – a quality thats equally handy on track. A series of impressive 2018 performances for Toro Rosso – including a brilliant fourth place in Bahrain – showed exciting promise for what he might do with the A team in 2019.</item>
+        <item>China has never boasted a Grand Prix starter among its citizens – but Zhou Guanyu is the driver charged with changing that state of affairs, after receiving the call-up to make his F1 debut for Alfa Romeo in 2022.  The Shanghai-born racer attended his home citys inaugural Grand Prix in 2004 at the age of five, cheering on his hero Fernando Alonso. But having caught the racing bug, the Chinese driver then set himself the ambitious goal of becoming his countrys first-ever F1 racer – achieving a feat that Ma Qinghua, the only other Chinese driver to take part in a Formula 1 weekend, never managed.</item>
+        <item>In the entire history of Formula 1, no Japanese driver has ever won a World Championship Grand Prix. Could Yuki Tsunoda be the first? Red Bull certainly think so, with the youngster very much on the path to their senior team if he continues to impress as he has done over the past few years. Tsunoda ascent to the top tier of motorsport was astonishingly rapid: he went from racing in Japanese F4 to a Formula 1 seat with AlphaTauri in just over three years, having arrived in Europe in 2019 with no knowledge of the circuits.</item>
+        <item>Call him a lone ranger or a maverick, but Magnussen is back in Formula 1 for one reason only – to race. He may be a second-generation F1 driver – following his father, Jan, onto the grid – but Magnussen idols are from the golden era of Grand Prix racing when the likes of Juan Manuel Fangio and Stirling Moss risked it all for the love of the sport.</item>
+        <item>Born in London but racing under the flag of Thailand, Alexander Albon first word was in fact Italian. That word was Ferrari – though it was with another Italian team that he got his big F1 break. Idolising Michael Schumacher and dreaming of one day racing in Formula 1, the junior Albon was pipped to the 2016 GP3 title by a certain Charles Leclerc. He then left his great friendship with George Russell trackside as he took the 2018 Formula 2 title fight down to the wire.</item>
+        <item>Logan Sargeant becomes F1 first American driver in almost eight years as he takes to the grid for the 2023 season, giving the country a home favourite to cheer once more. A prolific title winner in karting, championship glory eluded Sargeant after he made the transition to single-seater racing, but pole positions and race victories in almost every category he contested underlined his raw speed and potential. Indeed, finishing runner-up in F4 UAE, third in British F4 and third in F3 (having also made the podium at the prestigious Macau Grand Prix) showed he could be there or thereabouts in a variety of championships, with plenty of potential still to be untapped. </item>
+        <item>Nyck de Vries had to wait until he was 27 years old for a shot at racing in F1, but it was an opportunity the Dutchman grabbed with both hands to become one of the hottest options on the driver market and ultimately land a full-time deal with AlphaTauri. Well-versed with F1 machinery thanks to his Mercedes reserve role, which included several FP1 runs for the works and supplier teams in 2022-spec cars, De Vries slotted in seamlessly when Williams unexpectedly called him up to replace the unwell Alex Albon at the 2022 Italian Grand Prix.</item>
+    </string-array>
+
+    <string-array name="data_team_name">
+        <item>Red Bull Racing</item>
+        <item>Aston Martin</item>
+        <item>Mercedes</item>
+        <item>Ferrari</item>
+        <item>Mclaren</item>
+        <item>Alpine</item>
+        <item>Hass F1 Team</item>
+        <item>Alfa Romeo</item>
+        <item>AlphaTauri</item>
+        <item>Williams</item>
+    </string-array>
+
+    <integer-array name="data_team_car">
+        <item>@drawable/rb</item>
+        <item>@drawable/aston</item>
+        <item>@drawable/mercedes</item>
+        <item>@drawable/ferrari</item>
+        <item>@drawable/mclaren</item>
+        <item>@drawable/alpine</item>
+        <item>@drawable/haas</item>
+        <item>@drawable/alfa</item>
+        <item>@drawable/alphatauri</item>
+        <item>@drawable/williams</item>
+    </integer-array>
+
+    <string-array name="data_team_base">
+        <item>Milton Keynes, United Kingdom</item>
+        <item>Silverstone, United Kingdom</item>
+        <item>Brackley, United Kingdom</item>
+        <item>Maranello, Italy</item>
+        <item>Woking, United Kingdom</item>
+        <item>Enstone, United Kingdom</item>
+        <item>Kannapolis, United States</item>
+        <item>Hinwil, Switzerland</item>
+        <item>Faenza, Italy</item>
+        <item>Grove, United Kingdom</item>
+    </string-array>
+
+    <string-array name="data_team_chief">
+        <item>Christian Horner</item>
+        <item>Mike Krack</item>
+        <item>Toto Wolff</item>
+        <item>Frederic Vasseur</item>
+        <item>Andrea Stella</item>
+        <item>Otmar Szafnauer</item>
+        <item>Guenther Steiner</item>
+        <item>Alessandro Alunni Bravi</item>
+        <item>Franz Tost</item>
+        <item>James Vowles</item>
+    </string-array>
+
+    <string-array name="data_team_technical">
+        <item>Pierre Wache</item>
+        <item>Dan Fallows</item>
+        <item>Mike Elliott</item>
+        <item>Enrico Cardile</item>
+        <item>Peter Prodromou</item>
+        <item>Pat Fry</item>
+        <item>Simone Resta</item>
+        <item>Jan Monchaux</item>
+        <item>Jody Egginton</item>
+        <item>TBC</item>
+    </string-array>
+
+    <string-array name="data_team_desc">
+        <item>Red Bull were no strangers to F1 - as sponsors - prior to formally entering as a works team in 2004. Nonetheless, the scale of their success over the following decade was staggering. After a first podium in 2006, the team hit their stride in 2009, claiming six victories and second in the constructors standings. Over the next four seasons they were a tour de force, claiming consecutive title doubles between 2010 and 2013, with Sebastian Vettel emerging as the sports youngest quadruple champion. Now they are recapturing that glory with an equally exciting talent – one named Max Verstappen</item>
+        <item>Aston Martin original Formula 1 foray – over half a century ago – lasted just five races. This time, though, it serious. This F1 squad are no strangers to success, having won in their original guise of Jordan and most recently as Racing Point in 2020. Renowned for their ability to punch above their weight, and now with a two-time champion leading their driver line-up, Aston Martin are very much a team to watch</item>
+        <item>Mercedes modern F1 revival started with the creation of a works squad for 2010 - the platform for a meteoric rise up the Grand Prix order. The team generated huge excitement from the off with the sensational return of Michael Schumacher, but headlines soon followed on track: three podiums in their debut season, all via Nico Rosberg - who then claimed a breakthrough pole victory double at China in 2012.</item>
+        <item>For many, Ferrari and Formula 1 racing have become inseparable. The only team to have competed in every season since the world championship began, the Prancing Horse has grown from the humble dream of founder Enzo Ferrari to become one of the most iconic and recognised brands in the world. Success came quickly through the likes of Alberto Ascari and John Surtees</item>
+        <item>Since entering the sport in 1966 under the guidance and restless endeavour of eponymous founder Bruce, McLaren success has been nothing short of breathtaking. Five glittering decades have yielded countless victories, pole positions and podiums</item>
+        <item>Alpine may be a relatively new name to Formula 1, but Renault famous sportscar arm has plenty of motorsport heritage. The 2021 rebrand of the team marked the next step in Renault F1 revival, begun in 2016 with the takeover of the then-Lotus squad. Already race winners in their new guise, regular podiums and a tilt at the title must be their next target</item>
+        <item>The youngest team on the grid, Haas made their highly impressive debut in 2016, and in the process became the first all-American-led F1 squad in three decades. Founded by industrialist Gene Haas, they are based in the United States on the same Kannapolis, North Carolina facility as his championship-winning NASCAR Sprint Cup Series team, Stewart-Haas Racing.</item>
+        <item>The name Alfa Romeo boasts Formula 1 connections dating back to the championship inception in 1950. Fast forward to the 21st century and Italian flare combines with Swiss sensibilities in a new era for the team formerly known as Sauber.Having enjoyed considerable success in world sportscars, where he helped nurture the emerging talents of future F1 stars Michael Schumacher and Heinz-Harald Frentzen, Peter Sauber guided his eponymous squad into F1 in 1993.</item>
+        <item>Established in 2006 as a squad in which young drivers from Red Bull prodigious talent pool could cut their F1 teeth, AlphaTauri – originally named Toro Rosso – were formed from the ashes of the plucky Minardi team. Sebastian Vettel gave validity to the approach almost immediately, delivering a fairy-tale win in 2008, before going on to enjoy world championship success with parent team Red Bull Racing. Today the ethos of nurturing talent still holds true, though the Italian squad are no longer simply a B team but a constructor in their own right</item>
+        <item>Driven on by the brilliance and passion of the late Sir Frank Williams, Williams grew from humble beginnings to become a Formula 1 behemoth, unrivalled by all except Ferrari and McLaren in terms of enduring success. Over the past four decades the team has racked up Grand Prix wins and championship glory, and in the process nurtured some of the greatest talents in the sport, both in and out the cockpit.</item>
+    </string-array>
 </resources>
