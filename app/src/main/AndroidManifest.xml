@@ -16,6 +16,8 @@
             android:exported="false" />
         <activity android:name=".DetailTeamActivity"
             android:exported="false"/>
+        <activity android:name=".DetailScheduleActivity"
+            android:exported="false"/>
         <activity
             android:name=".MainActivity"
             android:exported="true">

@@ -322,4 +322,104 @@
         <item>Established in 2006 as a squad in which young drivers from Red Bull prodigious talent pool could cut their F1 teeth, AlphaTauri – originally named Toro Rosso – were formed from the ashes of the plucky Minardi team. Sebastian Vettel gave validity to the approach almost immediately, delivering a fairy-tale win in 2008, before going on to enjoy world championship success with parent team Red Bull Racing. Today the ethos of nurturing talent still holds true, though the Italian squad are no longer simply a B team but a constructor in their own right</item>
         <item>Driven on by the brilliance and passion of the late Sir Frank Williams, Williams grew from humble beginnings to become a Formula 1 behemoth, unrivalled by all except Ferrari and McLaren in terms of enduring success. Over the past four decades the team has racked up Grand Prix wins and championship glory, and in the process nurtured some of the greatest talents in the sport, both in and out the cockpit.</item>
     </string-array>
+
+    <string-array name="data_race">
+        <item>Bahrain Grand Prix</item>
+        <item>Saudi Arabian Grand Prix</item>
+        <item>Australian Grand Prix</item>
+        <item>Azerbaijan Grand Prix</item>
+        <item>Miami Grand Prix</item>
+        <item>Monaco Grand Prix</item>
+        <item>Spanish Grand Prix</item>
+        <item>Canadian Grand Prix</item>
+        <item>Austrian Grand Prix</item>
+        <item>British Grand Prix</item>
+        <item>Hungarian Grand Prix</item>
+        <item>Belgian Grand Prix</item>
+        <item>Dutch Grand Prix</item>
+        <item>Italian Grand Prix</item>
+        <item>Singapore Grand Prix</item>
+        <item>Japanese Grand Prix</item>
+        <item>Qatar Grand Prix</item>
+        <item>United States Grand Prix</item>
+        <item>Mexican Grand Prix</item>
+        <item>Brazilian Grand Prix</item>
+        <item>Las Vegas Grand Prix</item>
+        <item>Abu Dhabi Grand Prix</item>
+    </string-array>
+
+    <string-array name="data_name_circuit">
+        <item>Bahrain International Circuit</item>
+        <item>Jeddah Corniche Circuit</item>
+        <item>Albert Park</item>
+        <item>Baku City Circuit</item>
+        <item>Miami International Autodrome</item>
+        <item>Monaco</item>
+        <item>Circuit de Catalunya</item>
+        <item>Circuit Gilles Villeneuve</item>
+        <item>Red Bull Ring</item>
+        <item>Silverstone</item>
+        <item>Hungaroring</item>
+        <item>Spa-Francorchamps</item>
+        <item>Zandvoort</item>
+        <item>Monza</item>
+        <item>Singapore</item>
+        <item>Suzuka</item>
+        <item>Losail International Circuit</item>
+        <item>Circuit of the Americas</item>
+        <item>Autodromo Hermanos Rodriguez</item>
+        <item>Interlagos</item>
+        <item>Las Vegas Street Circuit</item>
+        <item>Yas Marina</item>
+    </string-array>
+
+    <string-array name="data_date_race">
+        <item>Mar 3-5</item>
+        <item>Mar 17-19</item>
+        <item>Mar 31-Apr 2</item>
+        <item>Apr 28-30</item>
+        <item>May 5-7</item>
+        <item>May 26-28</item>
+        <item>Jun 2-4</item>
+        <item>Jun 16-18</item>
+        <item>Jun 30-Jul 2</item>
+        <item>Jul 7-9</item>
+        <item>Jul 21-23</item>
+        <item>Jul 28-30</item>
+        <item>Aug 25-27</item>
+        <item>Sep 1-3</item>
+        <item>Sep 15-17</item>
+        <item>Sep 22-24</item>
+        <item>Oct 6-8</item>
+        <item>Oct 20-22</item>
+        <item>Oct 27-29</item>
+        <item>Nov 3-5</item>
+        <item>Nov 16-18</item>
+        <item>Nov 24-26</item>
+    </string-array>
+
+    <integer-array name="data_img_circuit">
+        <item>@drawable/bahrain</item>
+        <item>@drawable/jeddah</item>
+        <item>@drawable/albert</item>
+        <item>@drawable/baku</item>
+        <item>@drawable/miami</item>
+        <item>@drawable/monaco_circuit</item>
+        <item>@drawable/catalunya</item>
+        <item>@drawable/gilles</item>
+        <item>@drawable/red_bull</item>
+        <item>@drawable/silverstone</item>
+        <item>@drawable/hungariong</item>
+        <item>@drawable/spa</item>
+        <item>@drawable/zandvoort</item>
+        <item>@drawable/monza</item>
+        <item>@drawable/singapore</item>
+        <item>@drawable/suzuka</item>
+        <item>@drawable/lusail</item>
+        <item>@drawable/americas</item>
+        <item>@drawable/rodriguez</item>
+        <item>@drawable/interlagos</item>
+        <item>@drawable/las_vegas</item>
+        <item>@drawable/yas_marina</item>
+    </integer-array>
 </resources>
