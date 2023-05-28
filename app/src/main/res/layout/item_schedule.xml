@@ -62,6 +62,7 @@
             android:layout_marginStart="16dp"
             android:layout_marginTop="4dp"
             android:layout_marginBottom="16dp"
+            android:fontFamily="@font/titilliumregular"
             android:text="Circuit of the Americas"
             android:textColor="@color/title_blue_2"
             android:textSize="12sp"

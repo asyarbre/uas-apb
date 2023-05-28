@@ -45,21 +45,22 @@ class ScheduleFragment : Fragment() {
     }
 
     private fun dataInitialize() {
-        val dataRace = resources.getStringArray(R.array.data_race)
         val dataDate = resources.getStringArray(R.array.data_date_race)
+        val dataNameRace = resources.getStringArray(R.array.data_race)
         val dataNameCircuit = resources.getStringArray(R.array.data_name_circuit)
-        val dataImgCircuit = resources.obtainTypedArray(R.array.data_img_circuit)
+        val circuitImg = resources.obtainTypedArray(R.array.data_img_circuit)
 
         scheduleArrayList = ArrayList<Schedule>()
 
-        for (i in dataRace.indices) {
+        for (i in dataDate.indices) {
             val schedule = Schedule(
-                dataRace[i],
                 dataDate[i],
+                dataNameRace[i],
                 dataNameCircuit[i],
-                dataImgCircuit.getResourceId(i, -1)
+                circuitImg.getResourceId(i, -1),
             )
             scheduleArrayList.add(schedule)
         }
+
     }
 }
