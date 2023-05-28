@@ -3,7 +3,8 @@
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
-    android:layout_height="match_parent">
+    android:layout_height="match_parent"
+    android:background="@color/bg_blue">
 
     <TextView
         android:id="@+id/textView9"
@@ -12,6 +13,7 @@
         android:layout_marginTop="16dp"
         android:fontFamily="@font/titilliumbold"
         android:text="2023 RACE RESULTS"
+        android:textColor="@color/title_purple"
         android:textSize="16sp"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
@@ -25,6 +27,7 @@
         android:layout_marginTop="76dp"
         android:fontFamily="@font/titilliumregular"
         android:text=" GRAND PRIX"
+        android:textColor="@color/title_blue_2"
         android:textSize="12sp"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent" />
@@ -37,6 +40,7 @@
         android:layout_marginTop="76dp"
         android:fontFamily="@font/titilliumregular"
         android:text="DATE"
+        android:textColor="@color/title_blue_2"
         android:textSize="12sp"
         app:layout_constraintStart_toEndOf="@+id/textView10"
         app:layout_constraintTop_toTopOf="parent" />
@@ -49,6 +53,7 @@
         android:layout_marginTop="8dp"
         android:fontFamily="@font/titilliumregular"
         android:text="19 Mar 2023"
+        android:textColor="@color/title_blue_2"
         android:textSize="12sp"
         app:layout_constraintStart_toEndOf="@+id/textView10"
         app:layout_constraintTop_toBottomOf="@+id/textView18" />
@@ -61,6 +66,7 @@
         android:layout_marginTop="8dp"
         android:fontFamily="@font/titilliumregular"
         android:text="05 Mar 2023"
+        android:textColor="@color/title_blue_2"
         android:textSize="12sp"
         app:layout_constraintStart_toEndOf="@+id/textView10"
         app:layout_constraintTop_toBottomOf="@+id/textView11" />
@@ -73,6 +79,7 @@
         android:layout_marginTop="8dp"
         android:fontFamily="@font/titilliumregular"
         android:text="02 Apr 2023"
+        android:textColor="@color/title_blue_2"
         android:textSize="12sp"
         app:layout_constraintStart_toEndOf="@+id/textView10"
         app:layout_constraintTop_toBottomOf="@+id/textView19" />
@@ -85,6 +92,7 @@
         android:layout_marginTop="8dp"
         android:fontFamily="@font/titilliumregular"
         android:text="30 Apr 2023"
+        android:textColor="@color/title_blue_2"
         android:textSize="12sp"
         app:layout_constraintStart_toEndOf="@+id/textView10"
         app:layout_constraintTop_toBottomOf="@+id/textView22" />
@@ -97,6 +105,7 @@
         android:layout_marginTop="8dp"
         android:fontFamily="@font/titilliumregular"
         android:text="07 May 2023"
+        android:textColor="@color/title_blue_2"
         android:textSize="12sp"
         app:layout_constraintStart_toEndOf="@+id/textView10"
         app:layout_constraintTop_toBottomOf="@+id/textView4" />
@@ -109,6 +118,7 @@
         android:layout_marginEnd="24dp"
         android:fontFamily="@font/titilliumregular"
         android:text="LAPS"
+        android:textColor="@color/title_blue_2"
         android:textSize="12sp"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintTop_toTopOf="parent" />
@@ -121,6 +131,7 @@
         android:layout_marginTop="8dp"
         android:fontFamily="@font/titilliumbold"
         android:text="Bahrain"
+        android:textColor="@color/title_blue"
         android:textSize="12sp"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/textView10" />
@@ -133,6 +144,7 @@
         android:layout_marginTop="8dp"
         android:fontFamily="@font/titilliumbold"
         android:text="Saudi Arabia"
+        android:textColor="@color/title_blue"
         android:textSize="12sp"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/textView12" />
@@ -145,6 +157,7 @@
         android:layout_marginTop="8dp"
         android:fontFamily="@font/titilliumbold"
         android:text="Australia"
+        android:textColor="@color/title_blue"
         android:textSize="12sp"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/textView13" />
@@ -157,6 +170,7 @@
         android:layout_marginTop="8dp"
         android:fontFamily="@font/titilliumbold"
         android:text="Azerbaijan"
+        android:textColor="@color/title_blue"
         android:textSize="12sp"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/textView14" />
@@ -169,6 +183,7 @@
         android:layout_marginTop="8dp"
         android:fontFamily="@font/titilliumbold"
         android:text="Miami"
+        android:textColor="@color/title_blue"
         android:textSize="12sp"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/textView3" />
@@ -181,6 +196,7 @@
         android:layout_marginTop="8dp"
         android:fontFamily="@font/titilliumbold"
         android:text="Sergio Perez"
+        android:textColor="@color/title_purple"
         android:textSize="12sp"
         app:layout_constraintStart_toEndOf="@+id/textView11"
         app:layout_constraintTop_toBottomOf="@+id/textView24" />
@@ -193,6 +209,7 @@
         android:layout_marginTop="8dp"
         android:fontFamily="@font/titilliumbold"
         android:text="Sergio Perez"
+        android:textColor="@color/title_purple"
         android:textSize="12sp"
         app:layout_constraintStart_toEndOf="@+id/textView11"
         app:layout_constraintTop_toBottomOf="@+id/textView27" />
@@ -205,6 +222,7 @@
         android:layout_marginTop="8dp"
         android:fontFamily="@font/titilliumbold"
         android:text="Max Verstappen"
+        android:textColor="@color/title_purple"
         android:textSize="12sp"
         app:layout_constraintStart_toEndOf="@+id/textView11"
         app:layout_constraintTop_toBottomOf="@+id/textView23" />
@@ -217,6 +235,7 @@
         android:layout_marginTop="76dp"
         android:fontFamily="@font/titilliumregular"
         android:text="WINNER"
+        android:textColor="@color/title_blue_2"
         android:textSize="12sp"
         app:layout_constraintStart_toEndOf="@+id/textView11"
         app:layout_constraintTop_toTopOf="parent" />
@@ -229,6 +248,7 @@
         android:layout_marginTop="8dp"
         android:fontFamily="@font/titilliumbold"
         android:text="Max Verstappen"
+        android:textColor="@color/title_purple"
         android:textSize="12sp"
         app:layout_constraintStart_toEndOf="@+id/textView11"
         app:layout_constraintTop_toBottomOf="@+id/textView26" />
@@ -241,6 +261,7 @@
         android:layout_marginTop="8dp"
         android:fontFamily="@font/titilliumbold"
         android:text="Max Verstappen"
+        android:textColor="@color/title_purple"
         android:textSize="12sp"
         app:layout_constraintStart_toEndOf="@+id/textView11"
         app:layout_constraintTop_toBottomOf="@+id/textView6" />
@@ -253,6 +274,7 @@
         android:layout_marginEnd="37dp"
         android:fontFamily="@font/titilliumbold"
         android:text="57"
+        android:textColor="@color/title_blue"
         android:textSize="12sp"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/textView28" />
@@ -265,6 +287,7 @@
         android:layout_marginEnd="37dp"
         android:fontFamily="@font/titilliumbold"
         android:text="50"
+        android:textColor="@color/title_blue"
         android:textSize="12sp"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/textView29" />
@@ -277,6 +300,7 @@
         android:layout_marginEnd="37dp"
         android:fontFamily="@font/titilliumbold"
         android:text="58"
+        android:textColor="@color/title_blue"
         android:textSize="12sp"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/textView30" />
@@ -289,6 +313,7 @@
         android:layout_marginEnd="36dp"
         android:fontFamily="@font/titilliumbold"
         android:text="51"
+        android:textColor="@color/title_blue"
         android:textSize="12sp"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/textView31" />
@@ -301,6 +326,7 @@
         android:layout_marginEnd="36dp"
         android:fontFamily="@font/titilliumbold"
         android:text="57"
+        android:textColor="@color/title_blue"
         android:textSize="12sp"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/textView7" />
