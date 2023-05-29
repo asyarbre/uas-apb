@@ -13,6 +13,7 @@
     <string name="podiums">Podiums</string>
     <string name="team">Team</string>
     <string name="country">Country</string>
+    <string name="desc">Desc</string>
 
     <string-array name="data_first_name">
         <item>Max</item>
